@@ -9,9 +9,11 @@ const getSum = () => {
 	for(let eachprice of pricesarray){
 		totalsum+=eachprice
 	}
+	const tabletotal=document.getElementByTagName("table")
 	const lastrow=document.createElement("tr")
 	lastrow.innerHtml="totalsum"
-	document.body.appendChild(lastrow)
+	tabletotal.append("lastrow")
+	document.body.appendChild("tabletotal")
 	
   
 };
