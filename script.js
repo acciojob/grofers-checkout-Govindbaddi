@@ -4,7 +4,7 @@ document.body.appendChild(getSumBtn);
 
 const getSum = () => {
 //Add your code here
-	const pricesarray=document.getElementById("price")
+	const pricesarray=document.querySelectorAll("price")
 	var totalsum=0
 	for(let eachprice of pricesarray){
 		totalsum+=eachprice
